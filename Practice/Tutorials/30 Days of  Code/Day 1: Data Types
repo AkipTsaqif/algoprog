@@ -1,0 +1,24 @@
+// For both test cases //
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int i = 4;
+    double d = 4.0;
+    char s[] = "HackerRank ";
+    char src[100];
+    int j;
+
+    scanf("%d\n", &j);
+    scanf("%lf\n", &d);
+    fgets(src, 100, stdin);
+    
+    printf("%d\n", j+i);
+    printf("%.1lf\n", d+i);
+    printf("%s%s", s, src);
+
+    return 0;
+}
