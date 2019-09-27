@@ -1,0 +1,27 @@
+// Test case 1 //
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    char ch[50] = "Hello, World.";
+    char he[50] = "Welcome to 30 Days of Code!";
+    printf("%s\n%s", ch,he);
+    return 0;
+}
+
+// Test case 2 //
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    char ch[50] = "Hello, World.";
+    char he[50] = "HackerRank is the best!";
+    printf("%s\n%s", ch,he);
+    return 0;
+}
